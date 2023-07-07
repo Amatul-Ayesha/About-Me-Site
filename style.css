@@ -1,0 +1,83 @@
+header {
+    background-color: #D8F769;
+}
+
+
+nav {
+    background-color: #F0F7D4;
+}
+
+
+
+body {
+    background-color: #98c8db;
+
+}
+
+
+
+footer {
+    background-color: #F0F7D4;
+}
+
+
+p {
+    color: #252c0b;
+    font-family: Helvetica, Arial sans-serif;
+    font-weight: 400;
+
+}
+
+ul {
+    color: #252c0b;
+    font-family: Helvetica, Arial sans-serif;
+    font-weight: 400;
+
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #092834;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+
+
+a:link {
+    color: #092834;
+}
+
+/* unvisited link */
+a:visited {
+    color: #1D86AF;
+}
+
+/* visited link */
+a:hover {
+    color: #66B032;
+
+}
+
+/* mouse over link */
+a:active {
+    color: #B4E1F3;
+
+}
+
+/* selected link */
+
+
+.italicwords {
+    color: #D8F769;
+}
+
+
+
+
