@@ -1,0 +1,85 @@
+/* structural elements styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  h1 {
+    padding: 2vw;
+    text-align: center;
+    margin: 0px;
+  }
+
+  h2, h3
+  {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  /* figures and images */
+  article {
+    content: "";
+    clear: both;
+    display: table;
+    border: solid medium #092834;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 900px;
+    min-width: 500px;
+    margin: 1vw auto;
+  }
+  
+  article h3 {
+    margin: 0 
+    padding: 20px 20vw 30px;
+    background-color: #D8F769;
+    border-radius: 2px 2px 0 0;
+  }
+  
+  article>p {
+    margin: 50px;
+    width: 50%
+    float: right;
+  }
+  
+  figure {
+    float: left;
+    width: 35vw;
+    margin: 2vh 0;
+  }
+  
+  article:nth-child(even)>figure {
+    float: right;
+  }
+  
+  figure img {
+    display: block;
+    height: 185px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  
+  figcaption {
+    text-align: center;
+    clear: both;
+    color: #2E6C85;
+  }
+  
+
+  
+ 

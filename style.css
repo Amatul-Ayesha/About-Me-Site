@@ -1,5 +1,6 @@
 header {
     background-color: #D8F769;
+    padding-top: 5px;
 }
 
 
@@ -18,6 +19,7 @@ body {
 
 footer {
     background-color: #F0F7D4;
+    text-align: center
 }
 
 
