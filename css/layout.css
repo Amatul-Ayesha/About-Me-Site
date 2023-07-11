@@ -61,7 +61,7 @@
     margin: 2vh 0;
   }
   
-  article:nth-child(even)>figure {
+  article :nth-child(even)>figure {
     float: right;
   }
   
