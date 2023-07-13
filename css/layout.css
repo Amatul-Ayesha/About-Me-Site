@@ -61,7 +61,7 @@
     margin: 2vh 0;
   }
   
-  article :nth-child(even)>figure {
+  article:nth-child(even)>figure {
     float: right;
   }
   
@@ -69,6 +69,7 @@
     display: block;
     height: 185px;
     width: 50%;
+    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -79,6 +80,8 @@
     clear: both;
     color: #2E6C85;
   }
+
+  
   
 
   
