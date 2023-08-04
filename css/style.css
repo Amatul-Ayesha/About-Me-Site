@@ -1,6 +1,7 @@
 header {
     background-color: #D8F769;
     padding-top: 5px;
+    
 }
 
 
@@ -36,9 +37,6 @@ ul {
     font-weight: 400;
 
 }
-
-
-
 h1,
 h2,
 h3,
@@ -49,8 +47,6 @@ h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
 }
-
-
 
 a:link {
     color: #092834;
@@ -79,6 +75,9 @@ a:active {
 .italicwords {
     color: #D8F769;
 }
+
+
+  
 
 
 

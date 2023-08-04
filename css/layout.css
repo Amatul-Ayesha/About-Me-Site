@@ -1,85 +1,94 @@
-/* structural elements styles */
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
-  }
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
 
-  h1 {
-    padding: 2vw;
-    text-align: center;
-    margin: 0px;
-  }
+nav {
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 
-  h2, h3
-  {
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
-  }
+nav * {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.p1 {
+  order: 1
+}
+
+.p2 {
+  order: 2
   
-  /* figures and images */
-  article {
-    content: "";
-    clear: both;
-    display: table;
-    border: solid medium #092834;
-    border-radius: 10px;
-    width: 90%;
-    max-width: 900px;
-    min-width: 500px;
-    margin: 1vw auto;
-  }
+}
+.p3 {
+  order: 3
   
-  article h3 {
-    margin: 0 
-    padding: 20px 20vw 30px;
-    background-color: #D8F769;
-    border-radius: 2px 2px 0 0;
-  }
+}
+.p4 {
+  order: 4
   
-  article>p {
-    margin: 50px;
-    width: 50%
-    float: right;
-  }
+}
+.p5 {
+  order: 5
   
-  figure {
-    float: left;
-    width: 35vw;
-    margin: 2vh 0;
-  }
+}
+.p6 {
+  order: 6
   
-  article:nth-child(even)>figure {
-    float: right;
-  }
-  
-  figure img {
-    display: block;
-    height: 185px;
-    width: 50%;
-    max-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-  }
-  
-  figcaption {
-    text-align: center;
-    clear: both;
-    color: #2E6C85;
-  }
+}
+
+main {
+  display :flex;
+  width:100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+main > * {
+  width: 100%;
+}
+
+
+@media (min-width: 992px) {
+  main > * {
+      width:30%;
+   }
+ }
+
+img {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 3px;
+}
+
+figcaption{
+  text-align: center;
+}
+
+
+
+h1, h2, h3
+{
+  text-align: center;
+}
+
+figcaption {
+  color: #233942;
+}
+
+
+header{
+  padding: 35px;
+}
+
+
+
+
 
   
   
